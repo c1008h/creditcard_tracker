@@ -1,0 +1,218 @@
+[
+    {
+        "Card": "Prime Visa",
+        "Annual-Fee":"false",
+        "Foreign-Transaction":"false",
+        "Additional-Benefits": [{
+            "Auto rental collision damage waiver": "Decline the rental company's collision insurance and charge the entire rental cost to your card. Coverage is provided for theft and collision damage for most cars in the U.S. and abroad. In the U.S., coverage is secondary to your personal insurance.",
+            "Baggage delay insurance": "Reimburses you for essential purchases like toiletries and clothing for baggage delays over 6 hours by passenger carrier up to $100 a day for 3 days.",
+            "Extended Warranty Protection": "Extends the time period of the manufacturer's U.S. warranty by an additional year, on eligible warranties of 3 years or less.",
+            "Lost luggage reimbursement": "If you or an immediate family member check or carry on luggage that is damaged or lost by the carrier, you're covered up to $3,000 per passenger.",
+            "Roadside Dispatch®": "If you have a roadside emergency, call 1-800-847-2869 anytime to dispatch the help you need – anything from a tow or jumpstart to a tire change, lockout service, winching or gas delivery. Roadside service fees will be provided when you call and will be billed to your card.",
+            "Travel accident insurance": "When you pay for your air, bus, train or cruise transportation with your card, you are eligible to receive accidental death or dismemberment coverage of up to $500,000.",
+            "Travel and Emergency Assistance Services": "If you run into a problem away from home, call the Benefit Administrator for legal and medical referrals or other travel and emergency assistance. (You will be responsible for the cost of any goods or services obtained.)",
+            "Purchase protection": "Covers your new purchases for 120 days against damage or theft up to $500 per claim and $50,000 per account."
+        }],
+        "CashBack": [{
+            "Amazon.com": [{
+                "amount": "5%",
+                "details": "Earn unlimited 5% back on your Amazon.com purchases with an eligible Prime membership. Eligible Amazon.com purchases include digital downloads, Amazon Gift Cards, Amazon Prime subscriptions, items sold by third-party merchants through Amazon.com's marketplace, including Amazon Style, Prime Video, and Kindle Unlimited purchases.¹",
+                "excludes":"This excludes purchases from merchants using Amazon Pay, purchases made at international Amazon retail sites, and purchases from Zappos, Ring, Woot, AbeBooks, Blink, Eero, PillPack, Amazon Games, Wondery, Amazon Music, and Buy with Prime, or any other website operated by Amazon not listed here at Amazon’s sole discretion."
+            }],
+            "Whole Foods Market": [{
+                "amount": "5%",
+                "details":"Earn unlimited 5% back at Whole Foods Market online or in-store at any Whole Foods Market locations with an eligible Prime membership. This benefit is in addition to any in-store promotions.¹",
+                "excludes": "This excludes purchases made at international Whole Foods Markets, purchases of Whole Foods Market products and services through third-party sites such as Eventbrite, Instacart, Google Express and Shipt, online purchases of Whole Foods Market gift cards (including through buyatab.com), event tickets or classes, purchases from certain third-party vendors operating at Whole Foods Markets, purchases of massage services at any Whole Foods Market, or purchases from Spa@Ink."
+            }],
+            "Amazon Fresh": [{
+                "amount": "Earn unlimited 5% back at Amazon Fresh online or in-store at any Amazon Fresh locations with an eligible Prime membership. This benefit is in addition to any in-store promotions.¹"
+            }],
+            "Chase Travel": [{
+                "amount": "5%",
+                "details":"Earn unlimited 5% back on Chase Travel purchases with an eligible Prime membership. This category includes prepaid travel purchases made on chasetravel.com or by calling the number on the back of your card to book. Eligible travel purchases include airline tickets, hotels, car rentals, and cruises. Any items or charges not paid for on chasetravel.com or by calling the number on the back of your card will not qualify. Any portion of your purchase paid for using points will not qualify. You may see “travel purchased through Chase” or “travel purchased through Chase Ultimate Rewards” in marketing materials to refer to travel purchased through Chase Travel. To see a breakdown of your rewards earned from Chase Travel purchases, go online to your Rewards Activity page. You can also see it on your monthly card billing statement.¹"
+            }],
+            "Gas Stations": [{
+                "amount":"2%",
+                "details":"Merchants in this category sell automotive gasoline that can be paid for either at the pump or inside the station, and may or may not sell other goods or services at their location.¹",
+                "excludes": "This excludes merchants that do not specialize in selling automotive gasoline; for example, truck stops, boat marinas, oil and propane distributors, and home heating companies."
+            }],
+            "Restaurants": [{
+                "amount":"2%",
+                "details": "Earn unlimited 2% back at restaurants, whether you dine in or take out. This category’s merchants’ primary business is sit-down or eat-in dining, including fast food restaurants and fine dining establishments. Delivery and takeout services will be included if they classify as a restaurant merchant.¹",
+                "excludes": "This excludes merchants that sell food and drinks located within facilities such as sports stadiums, hotels and casinos, theme parks, grocery and department stores unless the merchant has set up such purchases to be classified in a restaurant category. Bakeries, caterers, meal kit delivery services, and gift card merchants are not included in the category."
+            }],
+            "Local Transit & Commuting": [{
+                "amount":"2%",
+                "details": "Earn unlimited 2% back on local transit and commuting, including rideshare. Merchants in this category include operators of passenger trains, buses, taxis, limousines, rideshare, ferries, toll bridges and highways, and parking lots and garages.¹",
+                "excludes": "This excludes merchants that provide transportation and related services; for example, airlines, hotels, car rental agencies, cruise lines, travel agencies, discount travel sites, vacation clubs, tour operators, bike or scooter rentals and car sharing."
+            }],
+            "Other Purchases": [{
+                "amount":"1%",
+                "details":"Earn unlimited 1% back all other purchases anywhere Visa is accepted.¹ For more information about Chase rewards categories, see chase.com/rewardscategoryfaqs. Please note that even though a merchant or some of the items that it sells may appear to fit within a given rewards category, the merchant may not have a merchant code in that category. When this occurs, purchases with that merchant won’t qualify for rewards offers on purchases in that category."
+            }],
+            "Prime Card Bonus": [{
+                "amount":"10%+",
+                "details": "Eligible Prime cardmembers earn 10% back or more on a rotating selection of items and categories on Amazon.com.² The amount listed in promotional offers includes the 5% back you already earn on Amazon.com purchases with an eligible Prime membership. The extra % back will post to your account within a week of the transaction posting, and will appear on your monthly credit card billing statement and be available for use within 1-2 billing cycles. Your account must be open and not in default at the time of fulfillment. Explore Prime Card Bonus deals"
+            }]
+        }],
+        "Account-Management-and-Protection": [{
+            "Fraud protection": [{
+                "Description":"We help safeguard your credit card purchases using sophisticated fraud monitoring.",
+                "Link":"https://www.chase.com/digital/fraud-security"
+            }],
+            "Zero liability protection": [{
+                "Description":"You won’t be held responsible for unauthorized charges made with your card or account information. If you see an unauthorized charge, simply call the number on the back of your card.⁷",
+                "Link":"https://www.chase.com/digital/fraud-security"
+            }],
+            "Go paperless" : [{
+                "Description": "Safely access up to 7 years of statements online. It's more secure, convenient and reduces clutter.",
+                "Link": "https://www.chase.com/personal/credit-cards/amazon/paperless-statements"
+            }],
+            "24/7 Access to customer service": [{
+                "Description":"Talk to a customer service specialist anytime by calling the number on the back of your card.",
+                "Link": "https://www.chase.com/personal/credit-cards/amazon/contact"
+            }],
+            "Automatic_account_alerts": [{
+                "Description": "Set up personalized alerts to get an email or text when your payment is due, when we receive your payment, when your balance reaches a certain amount, and more.⁸",
+                "Link": "https://www.chase.com/personal/credit-cards/amazon/account-alerts"
+            }],
+            "Chase_Credit_Journey": [{
+                "Description": "Track your credit score and learn how to build it with Chase Credit Journey. We update your score every week and tell you what’s changed — with no impact your credit.",
+                "Link": "https://www.chase.com/personal/credit-cards/free-credit-score"
+            }],
+            "Chip-enabled for enhanced security": [{
+                "Description": "Your credit card with an embedded chip provides enhanced security and wider acceptance when you make purchases at chip-enabled card readers in the U.S. and abroad. For an added layer of security, when a chip card is inserted into a chip card reader, the chip produces a single-use code to validate the transaction, making it harder for criminals to create a counterfeit card.",
+                "Link": "https://www.chase.com/digital/fraud-security"
+            }],
+            "Tap and pay with contactless": [{
+                "Description": "Simply tap to pay with your contactless card. Just look for the Contactless Symbol at checkout, then tap your contactless card on the checkout terminal. It's fast, easy and secure",
+                "Link": "https://www.chase.com/personal/credit-cards/contactless"
+            }]
+        }]
+    },
+    {
+        "Card": "Chase Freedom Unlimited",
+        "Annual-Fee":"false",
+        "Foreign-Transaction":"true",
+        "Foreign-Transaction-Fee": "3%",
+        "CashBack": [{
+            "Restaurants ": [{
+                "amount": "3%",
+                "details": "dining at restaurants including takeout and eligible delivery services"
+            }],
+            "Drug Stores": [{
+                "amount": "3%"
+            }],
+            "Chase Travel": [{
+                "amount": "5%",
+                "details":"Earn unlimited 5% back on Chase Travel purchases with an eligible Prime membership. This category includes prepaid travel purchases made on chasetravel.com or by calling the number on the back of your card to book. Eligible travel purchases include airline tickets, hotels, car rentals, and cruises. Any items or charges not paid for on chasetravel.com or by calling the number on the back of your card will not qualify. Any portion of your purchase paid for using points will not qualify. You may see “travel purchased through Chase” or “travel purchased through Chase Ultimate Rewards” in marketing materials to refer to travel purchased through Chase Travel. To see a breakdown of your rewards earned from Chase Travel purchases, go online to your Rewards Activity page. You can also see it on your monthly card billing statement.¹"
+            }],
+            "Other Purchases": [{
+                "amount":"1.5%"
+            }],
+            "Shop Through Chase": [{
+                "amount":"*%+"
+            }]
+        }]
+    },
+    {
+        "Card": "Chase Freedom Flex",
+        "Annual-Fee":"false",
+        "Foreign-Transaction":"true",
+        "Foreign-Transaction-Fee": "3%",
+        "CashBack": [{
+            "Quarterly Bonus": [{
+                "amount":"5%"
+            }],
+            "Restaurants ": [{
+                "amount": "3%",
+                "details": "dining at restaurants including takeout and eligible delivery services"
+            }],
+            "Drug Stores": [{
+                "amount": "3%"
+            }],
+            "Chase Travel": [{
+                "amount": "5%",
+                "details":"Earn unlimited 5% back on Chase Travel purchases with an eligible Prime membership. This category includes prepaid travel purchases made on chasetravel.com or by calling the number on the back of your card to book. Eligible travel purchases include airline tickets, hotels, car rentals, and cruises. Any items or charges not paid for on chasetravel.com or by calling the number on the back of your card will not qualify. Any portion of your purchase paid for using points will not qualify. You may see “travel purchased through Chase” or “travel purchased through Chase Ultimate Rewards” in marketing materials to refer to travel purchased through Chase Travel. To see a breakdown of your rewards earned from Chase Travel purchases, go online to your Rewards Activity page. You can also see it on your monthly card billing statement.¹"
+            }],
+            "Other Purchases": [{
+                "amount":"1%"
+            }],
+            "Shop Through Chase": [{
+                "amount":"*%+"
+            }]
+        }]
+    },
+    {
+        "Card": "BECU Cash Back",
+        "Annual-Fee":"false",
+        "Foreign-Transaction":"false",
+        "CashBack": [{
+            "Other Purchases ": [{
+                "amount": "1.5%",
+                "details": "All purchases are 1.5%"
+            }]
+        }],
+        "Travel Benefits": [{
+            "Baggage Delay Protection": "If your baggage is delayed or misdirected for more than four (4) hours from the time you arrive at your destination, you're eligible to receive a reimbursement up to $100 per day with a maximum of three (3) days (or $300) on everything from your clothes to shoes to even that teddy bear your niece had to have.",
+            "ID Navigator Powered by NortonLifeLock":"ID Navigator Powered by NortonLifeLock is a service that provides credit card holders with the tools to help stay informed of potential threats to their identity. Dark Web Monitoring continuously patrols the dark web and private forums looking for personal information that may belong to you. Should it be found, notifications are sent with suggested steps. Data Breach Notifications sends notifications on large-scale breaches so you can act quickly should a breach affect your personal information. Stolen Wallet Assist A stolen wallet can mean a lost identity. If your wallet is stolen you will receive guidance to help you cancel or replace key documents like your credit cards, driver's licenses, Social Security cards, insurance cards and more. One-Bureau Credit Monitoring Alerts helps you stay on-top of your credit to help detect fraud more quickly, alerts are sent when key changes are made to your credit file with a major credit bureau. Credit, Bank & Utility Account Freezes provides instructions and links so you can quickly freeze credit, financial institution and utility files with each consumer reporting company to help protect you against criminals opening unauthorized accounts in your name. Restoration Assist U.S.-based Identity Restoration Specialists are available Monday to Friday 6 a.m. – 5 p.m. PT with guidance and with next steps to assist you should you become a victim of identity theft or other suspicious activity. Note: Visa Cardholders will have access to special discounts if they are interested in purchasing a more robust identity theft offering that includes features such as the LifeLock Million Dollar Protection™ Package. U.S.-based Member Services & Support is available Monday to Friday 6 a.m. – 6 p.m. PT; and Saturday 7 a.m. – 1 p.m. PT.",
+            "Lost Luggage Reimbursement":"You took care packing that bag, now we take care of you if it's lost! If your checked luggage is lost by the carrier or stolen, you may be eligible to receive a reimbursement of up to $1,250.*",
+            "Price Protection":"Bought something, only for the price to drop just days later? Great news: The waiting game is over. Buy what you like, when you like. Your BECU Cash Back Visa offers protection on the price of an item for 60 days after you buy it. That's sixty days for an item you purchased to drop in price, and for you to get that price difference – up to $500 per item – refunded.The item must be purchased in the United States. You can receive a total refund of up to $2,500 a year*.",
+            "Roadside Dispatch": "Roadside Dispatch is a pay-per-use roadside assistance program.  It saves you money over traditional roadside assistance programs, providing security and convenience wherever your travels take you. From towing to tire changing, jump starting to lockout service, standard winching and even fuel delivery. Click here to get the help you need.",
+            "Travel and Emergency Assistance Services":"Pack your peace-of-mind and leave your worries behind. Cardholders are connected with their needed resources when traveling 24 hours a day, 365 days a year. Benefits include everything from emergency ticket replacement and lost luggage service, to translation services and even prescription assistance.",
+            "Trip Cancellaton/Trip Interruption":"Trip cancelled due to injury or illness? Now the only thing you're out is lost memories – not lost cash, too. In the event your trip is cancelled or interrupted due to injury, illness, or another covered benefit, you will be reimbursed for up to $2,000.*",
+            "Visa Account Updater":"Visa Account Updater (VAU) is a free service that helps you avoid missed payments when your credit card expires. The VAU service updates your BECU credit card expiration date and account number with participating merchants, such as subscription services, online retailers, or utility companies.",
+            "Extended Warranty Protection":"Ensure your new purchase goes the distance with your Visa card's Extended Warranty Protection, allowing you to manage and even extend potential warranties beyond their original protection.",
+            "Worldwide Automatic Travel Accident Insurance":"Not only does the card cover insurance if you cancel the trip, but insurance when you're on the trip! What's more, the coverage applies no matter what corner of the world you're in. Simply pay for your airline, cruise line, or  train travel with your BECU Visa and be eligible to receive travel accident insurance up to $500,000.*"
+        }]
+    },
+    {
+        "Card": "Apple Card",
+        "Annual-Fee":"false",
+        "Foreign-Transaction":"false",
+        "CashBack": [{
+            "Apple": [{
+                "amount":"3%",
+                "details":"All items at Apple, including subscriptions through apple"
+            }],
+            "Apple Pay ": [{
+                "amount": "2%",
+                "details": "Has to be paid via Apple Pay"
+            }],
+            "Nike": [{
+                "amount": "3%",
+                "excludes":"Not available at Nike-branded stores outside the United States"
+            }],
+            "Panera Bread": [{
+                "amount": "3%",
+                "excludes":"not available at Panera locations outside the U.S. and excludes orders made on third-party apps, plastic gift card purchases made online, and gift cards purchased through the Bulk Gift Card program."
+            }],
+            "Walgreens": [{
+                "amount": "3%",
+                "excludes":"not available at Sprint Express and independent health service providers, including Walgreens Optical and Walgreens Hearing, or for orders made on third‑party delivery apps."
+            }],
+            "T-Mobile": [{
+                "amount": "3%",
+                "details":"Available for purchases using Apple Card with Apple Pay in T‑Mobile U.S. stores, and bill payments and AutoPay on t‑mobile.com and in the T‑mobile app.",
+                "excludes":"Authorized T‑Mobile dealers are not eligible for 3% Daily Cash and can be found on t‑mobile.com/store-locator. Sprint account payments, and purchases made through any Sprint checkout, including those at T‑Mobile U.S. stores, are not eligible for 3% Daily Cash."
+            }],
+            "Exxon Mobil": [{
+                "amount": "3%",
+                "details":"Available in the United States when using Apple Card with Apple Pay (where available) at Exxon- or Mobil-branded pumps and attached convenience stores. To pay at the pump with Apple Pay, use either Exxon Mobil Rewards+ mobile app or contactless payment.",
+                "excludes":"Excludes purchases at third-party merchants, including independent car washes, located within an Exxon- or Mobil-branded location or the attached convenience store."
+            }],
+            "Ace Hardware": [{
+                "amount": "3%",
+                "details":"Available in the United States when using Apple Card with Apple Pay online, in the mobile app, and at participating stores listed at acehardware.com/applecard.",
+                "excludes":"Excludes online and mobile app gift card purchases and purchases from 3rd party merchants using independent point-of-sale systems within a participating Ace Hardware store. Please check with your local participating Ace Hardware store whether your purchases are eligible for 3% Daily Cash."
+            }],
+            "Other Purchases": [{
+                "amount":"1%",
+                "details":"Purchases made with the physical card or card information"
+            }],
+            "Shop Through Chase": [{
+                "amount":"*%+"
+            }]
+        }]
+    }
+]
