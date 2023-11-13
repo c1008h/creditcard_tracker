@@ -1,0 +1,17 @@
+{
+  "name": "creditcard_tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/app.py",
+  "scripts": {
+    "start:backend": "cd server && python3 app.py",
+    "start:frontend": "cd client && npm run dev",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

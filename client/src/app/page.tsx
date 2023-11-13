@@ -1,8 +1,5 @@
 "use client"
-
-import Image from 'next/image'
 import { useEffect, useState } from 'react'; 
-
 interface CardData {
   Card: string;
   'Annual-Fee': string;
@@ -18,51 +15,41 @@ interface CardData {
 
 export default function Home() {
     const [jsonData, setJsonData] = useState<CardData[] | null>(null);
+    const [selectedCategory, setSelectedCategory] = useState<string>(''); 
+    const [selectedMerchant, setSelectedMerchant] = useState<string[]>(['']); 
 
-    useEffect(() => {
-      fetch('/data.json') 
-      .then((response) => response.json())
-      .then((data: CardData[]) => setJsonData(data));
-    }, []);
-
-    // function setCashBack() {
-    //   if (jsonData){
-    //     const cashbackArray = jsonData.map((item) => item.CashBack);
-    //     setCashbackData(cashbackArray);
-    //   }
-    //   console.log("Cashback data: ", cashbackData)
-    // }
-
-    console.log('jsonData: ', jsonData)
-
-    if (!jsonData) {
-      return <div>Loading...</div>;
+    const handleCategoryChange = async (e) => {
+      e.preventDefault()
+      try {
+        const response = await fetch(`http://127.0.0.1:5000/api/cashback?category=${selectedCategory}`);
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        const data = await response.json();
+        console.log('returned data: ', data)
+        setSelectedMerchant(data)
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
     }
+    console.log(selectedMerchant)
+    // if (!jsonData) {
+    //   return <div>Loading...</div>;
+    // }
 
     return (
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <h1>What Credit Cards Do You Have?</h1>
-        {jsonData.map((card, index) => (
-        <div key={index}>
-          <h2>{card.Card}</h2>
-          <ul>
-            {Object.keys(card.CashBack).map((category) => (
-              <li key={category}>
-                <strong>{category}:</strong>
-                <ul>
-                  {card.CashBack[category].map((item, itemIndex) => (
-                    <li key={itemIndex}>
-                      <strong>Amount: {item.amount}</strong>
-                      <p>{item.details}</p>
-                      {item.excludes && <p>Excludes: {item.excludes}</p>}
-                    </li>
-                  ))}
-                </ul>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ))}
+        <h1>Category of purchase?</h1>
+        <form onSubmit={ handleCategoryChange }>
+          <label htmlFor="category">Category of purchase?</label>
+          <input
+            type="text"
+            id="category"
+            value={selectedCategory}
+            onChange={(e) => setSelectedCategory(e.target.value)}
+          />
+          <button type='submit'>Submit</button>  
+        </form> 
       </main>
     );
 }

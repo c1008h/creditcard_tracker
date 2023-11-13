@@ -1,7 +1,7 @@
-from flask import Blueprint, jsonify
+from flask import Blueprint, jsonify, request
 import json
 
-bp = Blueprint('cards', __name__)
+bp = Blueprint('cards', __name__, url_prefix='/api')
 
 # Load data from the JSON file
 with open('./data/data.json', 'r') as file:
@@ -33,3 +33,27 @@ def get_all_cashback():
                     "CashBack": cashback
                 })
     return jsonify(all_cashback)
+
+@bp.route('/search-cashback', methods=['GET'])
+def search_cashback(searched_item):
+    print("Hello, world!")
+    matching_cards = []
+
+    for card in card_data:
+        for category, details in card.get('CashBack', {}).items():
+            if searched_item.lower() in category.lower():
+                for item in details:
+                    cashback_amount = item.get('amount', '')
+                    matching_cards.append({
+                        'Card': card['Card'],
+                        'CashBack': cashback_amount,
+                    })
+
+    return matching_cards
+
+    # Example usage: Replace 'YourSearchedItem' with the actual searched item from user input
+    searched_item = 'Amazon'
+    matching_cards = search_cards(searched_item)
+
+    # Print or return the matching cards
+    print(matching_cards)
